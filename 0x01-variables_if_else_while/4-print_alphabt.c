@@ -5,6 +5,7 @@
  *
  * Description: using the main command
  * This program prints alphabets in lowercase
+ * Return: 0
  */
 int main (void)
 {
