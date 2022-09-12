@@ -6,7 +6,7 @@
  *
  * Description: using the main function
  * This program prints if the number is greater than 5, is 0 or less than 6 and not 0
- * return 0
+ * Return: 0
  */
 int main (void)
 {
