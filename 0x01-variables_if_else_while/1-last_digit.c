@@ -6,7 +6,7 @@
  *
  * Description: using the main function
  * This program prints if the number is greater than 5, is 0 or less than 6 and not 0
- * returns 0
+ * return 0
  */
 int main (void)
 {
@@ -24,7 +24,7 @@ int main (void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
-	else 
+	else
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
