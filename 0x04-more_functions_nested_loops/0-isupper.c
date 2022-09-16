@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * Description: function that checks for uppercase characters
+ * _isupper - function that checks for uppercase characters
+ *
+ * @c: checks input of function
  *
  * Return: 1 if 'c' is uppercase 
- *         otherwise always 0
  */
 int _isupper(int c)
 {
