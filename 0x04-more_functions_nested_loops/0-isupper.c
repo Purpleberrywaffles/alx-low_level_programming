@@ -4,7 +4,8 @@
 /**
  * Description: function that checks for uppercase characters
  *
- * Return: 1 if 'c' is uppercase otherwise always 0
+ * Return: 1 if 'c' is uppercase 
+ *         otherwise always 0
  */
 int _isupper(int c)
 {
