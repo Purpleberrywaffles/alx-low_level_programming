@@ -29,7 +29,7 @@ int main(void)
 			n = n/i;
 		}
 	}
-	printf("%ld\n", max)
+	printf("%ld\n", max);
 
 		return(0);
 }
