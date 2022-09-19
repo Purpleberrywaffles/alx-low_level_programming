@@ -6,7 +6,7 @@
  * @s: String to reverse
  * Return: Nothing
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	char s;
 
