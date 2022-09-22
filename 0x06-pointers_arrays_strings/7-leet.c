@@ -6,23 +6,17 @@
  */
 char *leet(char *string)
 {
-	int a;
-	int b;
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	char lower[] = "aeotl";
-	char upper[] = "AEOTL"
-	char numbers[] + "43071";
-
-	for (a = 0; string[a] != '\0'; a++)
+	for (i = 0; *(s + i); i++)
 	{
-		for (b = 0; lower[b] != '\0' && upper[b] != '\0'; b++)
+		for (j = 0; j <= 9; j++)
 		{
-			if (string[a] == lower[b] || string[a] == upper[b])
-			{
-				string[a] = numbers [b];
-				break;
-			}
+			if (a[j] == *(s + i))
+				*(s + i) = b[j];
 		}
-		return (string);
-
+	}
+	return (s);
 }
