@@ -5,7 +5,7 @@
  * @s: string
  * Return: s
  */
-char *string_stoupper(char *s)
+char *string_toupper(char *s)
 {
 	int x;
 
