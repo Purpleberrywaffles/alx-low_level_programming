@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * @string: pointer to string
+ * @str: pointer to string
  * Return: returns translated spring
  */
 char *leet(char *str)
 {
-	int a = 0, b;
+	int indx1 = 0, indx2;
 	char leet[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (str[a])
+	while (str[indx1])
 	{
-		for (b = 0; b <= 7; b++)
+		for (indx2 = 0; indx2 <= 7; indx2++)
 		{
-			if (str[a] == leet[b] ||
-				str[a] - 32 == leet[b])
-				str[a] = b + '0';
+			if (str[indx1] == leet[indx2] ||
+				str[indx1] - 32 == leet[indx2])
+				str[indx1] = indx2 + '0';
 		}
-		a++;
+		indx1++;
 	}
 
 	return (str);
