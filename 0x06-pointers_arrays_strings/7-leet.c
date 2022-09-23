@@ -6,18 +6,18 @@
  */
 char *leet(char *str)
 {
-	int indx1 = 0, indx2;
+	int a = 0, b;
 	char leet[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (str[indx1])
+	while (str[a])
 	{
-		for (indx2 = 0; indx2 <= 7; indx2++)
+		for (b = 0; b <= 7; b++)
 		{
-			if (str[indx1] == leet[indx2] ||
-				str[indx1] - 32 == leet[indx2])
-				str[indx1] = indx2 + '0';
+			if (str[a] == leet[b] ||
+				str[a] - 32 == leet[b])
+				str[a] = b + '0';
 		}
-		indx1++;
+		a++;
 	}
 
 	return (str);
