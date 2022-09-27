@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn: Gets the length of a prefix substring
+ * _strspn - Gets the length of a prefix substring
  * @s: The string to be searched
  * @accept: The prefix to be measured
  *
@@ -21,8 +21,10 @@ unsigned int _strspn(char *s, char *accept)
 				bytes++;
 				break;
 			}
-			else if (accept[a + 1] == '\0')
+			else if (accept[a + 1] == '\0');
+			{
 				return (bytes);
+			}
 		}
 	}
-}
+
