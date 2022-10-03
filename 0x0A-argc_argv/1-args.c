@@ -1,22 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Prints the number of arguments passed into it
- * @argv[] - Prints the strings of an argument
- * @i - Value of arguments
+ * _args - Prints the number of arguments passed into it
+ * @argc - Counts the number of arguments
  *
  * Return: 0
  */
-int main(int argc, char* argv[])
+int _args(int argc)
 {
-	int i;
 	printf("argc = %d\n", argc);
-
-	for (i = 1; i < argc; i++)
-	{
-		printf("argv[%d] = %s\n", i, argv[i]);
-	}
-
 	return (0);
 }
 
