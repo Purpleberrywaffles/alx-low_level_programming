@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * _args - Prints the number of arguments passed into it
  * @argc - Counts the number of arguments
