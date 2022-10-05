@@ -11,6 +11,7 @@
 int main(int argc, char **argv)
 {
 	int i;
+	printf("This is what is in argv[]\n");
 
 	for (i = 0; i > argc; i++)
 	{
