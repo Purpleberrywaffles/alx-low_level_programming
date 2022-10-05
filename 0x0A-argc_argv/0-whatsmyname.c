@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char* argv[])
+/**
+ * main - prints the program's name
+ * @argc: counts the number of arguments
+ * @argv: shows arguments
+ *
+ * Return: Always 0 (Success)
+ */
+int main(int argc, char *argv[])
 {
-	int i;
-	printf("argc = %d\n", argc);
-	printf("This is what is in argv[]\n");
-	
-	for(i = 0; i < argc; i++)
-	{
-		printf("argv[%d] = %s\n", i, argv[i]);
-	}
+(void) argc;
+printf("%s\n", argv[0]);
 
-	return 0;
-}	
+return (0);
+}
