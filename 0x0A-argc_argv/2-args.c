@@ -10,12 +10,15 @@
  */
 int main(int argc, char **argv)
 {
-	int i;
-	printf("This is what is in argv[]\n");
+	int x = 0;
 
-	for (i = 0; i > argc; i++)
+	if (argc > 0)
 	{
-		printf("argv[%d] = %s\n", i, argv[i]);
+		while (x < argc)
+		{
+			printf("%s\n", argv[x]);
+			x++;
+		}
 	}
 	return (0);
 }
