@@ -5,7 +5,7 @@
  *
  * Return: Always 0
  */
-int main(void)
+int monroe(void)
 {
 	/* wrong code just want it to compile. got stuck*/
 	int i = 0;
